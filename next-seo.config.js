@@ -1,16 +1,16 @@
-const title = 'Neil Skaria – Technology, Strategy, Finance.';
+const title = 'Jermy Abraham – Basketball, Teamwork, Faith.';
 const description =
-  'Hi, my name is Neil Skaria. I write about emerging markets, technology trends, business strategy, finance, productivity, and much more!';
+  'Hi, my name is Jermy Abraham. My passion is basketball, teamwork, and developing athletic talent.';
 
 const SEO = {
   title,
   description,
   lang: 'en',
-  canonical: 'https://neilskaria.com',
+  canonical: 'https://jermyabraham.com',
   openGraph: {
     type: 'website',
     locale: 'en_IE',
-    url: 'https://neilskaria.com',
+    url: 'https://jermyabraham.com',
     title,
     description,
     images: [
@@ -24,8 +24,8 @@ const SEO = {
     ],
   },
   twitter: {
-    handle: '@neilskaria',
-    site: '@neilskaria',
+    handle: '@CoachJermy',
+    site: '@CoachJermy',
     cardType: 'summary_large_image',
   },
 };

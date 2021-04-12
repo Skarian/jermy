@@ -10,7 +10,7 @@ const About = ({ mdx }) => {
   return (
     <>
       <NextSeo
-        title="About me – Neil Skaria"
+        title="About me – Jermy Abraham"
         description="My background ,employment history, and breakdown of my skills"
       />
       <motion.div
@@ -35,13 +35,13 @@ export async function getStaticProps() {
   const response = await fetchContent(
     `
     {
-      about (id: "3x4zqD34NyBwyQd4ElJhDK") {
+      aboutJermy (id: "73CmQdaMIsGyZMDMoMTIon") {
         content
       }
     }
     `
   );
-  const mdx = await renderToString(response.about.content, {
+  const mdx = await renderToString(response.aboutJermy.content, {
     components: { Image },
     mdxOptions: {
       remarkPlugins: [require('remark-slug'), require('remark-autolink-headings')],

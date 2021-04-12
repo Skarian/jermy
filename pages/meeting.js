@@ -6,7 +6,7 @@ const Meeting = () => {
   return (
     <>
       <NextSeo
-        title="Meet Me – Neil Skaria"
+        title="Meet Me – Jermy Abraham"
         description="Setup some time on my calendar for us to chat"
       />
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>

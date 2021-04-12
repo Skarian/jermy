@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Link from 'next/link';
 import Image from './image';
 
-const BlogPostCard = ({ title, description, category, alt, date, body, slug, priority }) => {
+const BlogPostCard = ({ title, description, category, alt, date, body, slug, priority, image }) => {
   function calcReadingTime(post) {
     const WORDS_PER_MINUTE = 200;
     let result = {};
@@ -19,7 +19,7 @@ const BlogPostCard = ({ title, description, category, alt, date, body, slug, pri
   const readingTime = calcReadingTime(body).readingTime;
   return (
     <motion.div
-      className="mx-auto bg-white rounded-xl ring-1 ring-gray-200 shadow-sm overflow-hidden cursor-pointer mt-5 select-none hover:ring-green-500"
+      className="mx-auto bg-white rounded-xl ring-1 ring-gray-200 shadow-sm overflow-hidden cursor-pointer mt-5 select-none hover:ring-blue-500"
       whileHover={{ y: -5 }}
     >
       <Link href={`blog/${slug}`}>
@@ -27,7 +27,7 @@ const BlogPostCard = ({ title, description, category, alt, date, body, slug, pri
           <div className="md:flex-shrink-0">
             <Image
               wrapper="h-40 w-full object-cover md:w-40 relative"
-              src={`/images/blog/${slug}.jpg`}
+              src={image.url}
               alt={alt}
               objectFit="cover"
               layout="fill"
@@ -35,7 +35,7 @@ const BlogPostCard = ({ title, description, category, alt, date, body, slug, pri
             />
           </div>
           <div className="px-8 py-6 truncate">
-            <div className="uppercase tracking-wide text-sm text-green-500 font-semibold">
+            <div className="uppercase tracking-wide text-sm text-blue-500 font-semibold">
               {category}
             </div>
             <h2 className="block mt-1 text-lg leading-tight font-medium truncate">{title}</h2>

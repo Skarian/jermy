@@ -8,8 +8,8 @@ const Home = ({ blogPosts }) => {
   return (
     <>
       <NextSeo
-        title="Blog – Neil Skaria"
-        description="A collection of my research on topics such as technology, strategy, finance etc"
+        title="Blog – Jermy Abraham"
+        description="A collection of my thoughts on the game of basketball, my journey, and a whole lot more!"
       />
       <motion.div
         initial={{ opacity: 0 }}
@@ -21,10 +21,10 @@ const Home = ({ blogPosts }) => {
           <div className="text-center md:text-left">
             <div className="text-2xl font-bold mb-3">🧐 Recent Blog Posts</div>
             <div className=" text-sm md:text-base text-gray-500">
-              A collection of my thoughts on a variety of topics
+              A collection of my thoughts on basketball, life, and faith
             </div>
           </div>
-          {blogPosts.map(({ title, category, description, date, alt, body, slug }) => {
+          {blogPosts.map(({ title, category, description, date, alt, body, slug, image }) => {
             return (
               <BlogPostCard
                 key={title}
@@ -35,6 +35,7 @@ const Home = ({ blogPosts }) => {
                 date={date}
                 body={body}
                 slug={slug}
+                image={image}
                 priority={true}
               />
             );
@@ -51,7 +52,7 @@ export async function getStaticProps() {
   const response = await fetchContent(
     `
     {
-      postCollection(limit: 100) {
+      postJermyCollection(limit: 100) {
         items {
           category
           description
@@ -60,12 +61,17 @@ export async function getStaticProps() {
           alt
           body
           slug
+          image {
+            url
+            width
+            height
+          }
         }
       }
     }
     `
   );
-  const adjustedResponse = response.postCollection.items.map((map) => {
+  const adjustedResponse = response.postJermyCollection.items.map((map) => {
     map.date = moment(map.date).format('MMM DD, YYYY');
     return map;
   });
