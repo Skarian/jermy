@@ -1,26 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://neilskaria.com/about</loc>
+        <loc>https://coachjermy.com/about</loc>
     </url>
 
     <url>
-        <loc>https://neilskaria.com/blog</loc>
+        <loc>https://coachjermy.com/blog</loc>
     </url>
 
     <url>
-        <loc>https://neilskaria.com/gallery</loc>
+        <loc>https://coachjermy.com/gallery</loc>
     </url>
 
     <url>
-        <loc>https://neilskaria.com</loc>
+        <loc>https://coachjermy.com</loc>
     </url>
 
     <url>
-        <loc>https://neilskaria.com/meeting</loc>
+        <loc>https://coachjermy.com/meeting</loc>
     </url>
 
     <url>
-        <loc>https://neilskaria.com/blog/my-review-of-atomic-habits</loc>
+        <loc>https://coachjermy.com/references</loc>
+    </url>
+
+    <url>
+        <loc
+            >https://coachjermy.com/blog/an-update-on-my-journey-2021-edition</loc
+        >
     </url>
 </urlset>

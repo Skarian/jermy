@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://neilskaria.com/sitemap.xml
+Sitemap: https://coachjermy.com/sitemap.xml

@@ -1,9 +1,6 @@
 import { m as motion } from 'framer-motion';
 import { fetchContent } from '../utils/contentful';
-import BlogPostCard from '../components/blogPostCard';
 import { NextSeo } from 'next-seo';
-import moment from 'moment';
-import ImageGallery from 'react-image-gallery';
 import Image from '../components/image';
 
 const Home = ({ images }) => {

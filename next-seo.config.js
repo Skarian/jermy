@@ -6,17 +6,17 @@ const SEO = {
   title,
   description,
   lang: 'en',
-  canonical: 'https://jermyabraham.com',
+  canonical: 'https://coachjermy.com',
   openGraph: {
     type: 'website',
     locale: 'en_IE',
-    url: 'https://jermyabraham.com',
+    url: 'https://coachjermy.com',
     title,
     description,
     images: [
       {
         url:
-          'https://images.ctfassets.net/v9szi7zqf8b3/6zDwLXqcpMgvxBR8NdM9S4/e55a0b934a708c71b9b0f5b3399abf81/banner.png',
+          'https://images.ctfassets.net/v9szi7zqf8b3/5Affmh0x47L5IZ07JbjBet/246d4cffcce41557601ff6593a1d23f0/journey-2021.jpg',
         alt: title,
         width: 1280,
         height: 720,

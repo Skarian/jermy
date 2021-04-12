@@ -28,7 +28,7 @@ const Blog = ({ blogPost, mdx }) => {
   return (
     <>
       <BlogSeo
-        url={`https://jermyabraham.com/blog/${slug}`}
+        url={`https://coachjermy.com/blog/${slug}`}
         title={title}
         description={description}
         image={image}

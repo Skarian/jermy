@@ -37,16 +37,17 @@ async function fetchContent(query) {
     )
     const response = await fetchContent(
         `
-    {
-      postCollection (limit: 100) {
-        items {
-          slug
+        {
+          postJermyCollection(limit: 100) {
+            items {
+              slug
+
+            }
+          }
         }
-      }
-    }
     `
     )
-    const slugs = response.postCollection.items.map((item) => {
+    const slugs = response.postJermyCollection.items.map((item) => {
         return item.slug
     })
 
@@ -70,7 +71,7 @@ async function fetchContent(query) {
 
                     return `
                         <url>
-                            <loc>${`https://neilskaria.com${route}`}</loc>
+                            <loc>${`https://coachjermy.com${route}`}</loc>
                         </url>
                     `
                 })
@@ -79,7 +80,7 @@ async function fetchContent(query) {
                   .map((slug) => {
                       return `
                           <url>
-                              <loc>${`https://neilskaria.com/blog/${slug}`}</loc>
+                              <loc>${`https://coachjermy.com/blog/${slug}`}</loc>
                           </url>
                       `
                   })

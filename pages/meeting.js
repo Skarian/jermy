@@ -12,7 +12,7 @@ const Meeting = () => {
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
         <div className="h-auto">
           <InlineWidget
-            url="https://calendly.com/neil-skaria/30min"
+            url="https://calendly.com/jermy-abraham/30min"
             styles={{ height: '110vh', overflow: 'hidden' }}
           />
         </div>

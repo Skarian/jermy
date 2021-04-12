@@ -10,7 +10,7 @@ const Navi = () => {
         <Link href="/">
           <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 group">
             <span className="ml-3 text-xl font-bold group-hover:text-gray-500">
-              🏀 jermyabraham.com
+              🏀 coachjermy.com
             </span>
           </a>
         </Link>
@@ -23,6 +23,9 @@ const Navi = () => {
           </Link>
           <Link href="/blog">
             <a className="mr-5 hover:text-gray-500">Blog</a>
+          </Link>
+          <Link href="/references">
+            <a className="mr-5 hover:text-gray-500">References</a>
           </Link>
           <Link href="/gallery">
             <a className="mr-5 hover:text-gray-500">Gallery</a>

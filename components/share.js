@@ -14,7 +14,7 @@ const Share = ({ slug }) => {
         <li className="">
           <a
             className="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap text-xs md:text-sm"
-            href={`mailto:info@example.com?&subject=&body=https://jermyabraham.com/blog/${slug}`}
+            href={`mailto:info@example.com?&subject=&body=https://coachjermy.com/blog/${slug}`}
           >
             E-Mail
           </a>
@@ -22,7 +22,7 @@ const Share = ({ slug }) => {
         <li className="">
           <a
             className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap text-xs md:text-sm"
-            href={`https://twitter.com/intent/tweet?url=https://jermyabraham.com/blog/${slug}&text=Checkout this article!`}
+            href={`https://twitter.com/intent/tweet?url=https://coachjermy.com/blog/${slug}&text=Checkout this article!`}
           >
             Twitter
           </a>
@@ -30,7 +30,7 @@ const Share = ({ slug }) => {
         <li className="">
           <a
             className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap text-xs md:text-sm"
-            href={`https://www.linkedin.com/shareArticle?mini=true&url=https://jermyabraham.com/blog/${slug}&title=&summary=Checkout this article!&source=`}
+            href={`https://www.linkedin.com/shareArticle?mini=true&url=https://coachjermy.com/blog/${slug}&title=&summary=Checkout this article!&source=`}
           >
             Linkedin
           </a>
