@@ -38,7 +38,7 @@ const Hero = ({ heroData }) => {
               width={50}
               priority
             />
-            <span className="ml-2 flex items-start flex-col leading-none">
+            <span className="ml-2 md:flex hidden items-start flex-col leading-none">
               <span className="text-xs text-gray-900 mb-1 overflow-ellipsis">FOLLOW ON</span>
               <span className="font-medium text-base">Twitter</span>
             </span>
@@ -59,7 +59,7 @@ const Hero = ({ heroData }) => {
               width={50}
               priority
             />
-            <span className="ml-2 flex items-start flex-col leading-none">
+            <span className="ml-2 md:flex items-start flex-col leading-none hidden">
               <span className="text-xs text-gray-900 mb-1">CONNECT ON</span>
               <span className="font-medium text-base">Linkedin</span>
             </span>
@@ -80,7 +80,7 @@ const Hero = ({ heroData }) => {
               width={50}
               priority
             />
-            <span className="ml-2 flex items-start flex-col leading-none">
+            <span className="ml-2 md:flex hidden items-start flex-col leading-none">
               <span className="text-xs text-gray-900 mb-1 overflow-ellipsis">FOLLOW ON</span>
               <span className="font-medium text-base">Instagram</span>
             </span>
