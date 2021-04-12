@@ -16,19 +16,19 @@ const Navi = () => {
         </Link>
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
           <Link href="/">
-            <a className="mr-5 hover:text-gray-500">Home</a>
+            <a className="mr-3 md:mr-5 hover:text-gray-500">Home</a>
           </Link>
           <Link href="/about">
-            <a className="mr-5 hover:text-gray-500">About</a>
+            <a className="mr-3 md:mr-5 hover:text-gray-500">About</a>
           </Link>
           <Link href="/blog">
-            <a className="mr-5 hover:text-gray-500">Blog</a>
+            <a className="mr-3 md:mr-5 hover:text-gray-500">Blog</a>
           </Link>
           <Link href="/references">
-            <a className="mr-5 hover:text-gray-500">References</a>
+            <a className="mr-3 md:mr-5 hover:text-gray-500">References</a>
           </Link>
           <Link href="/gallery">
-            <a className="mr-5 hover:text-gray-500">Gallery</a>
+            <a className="mr-3 md:mr-5 hover:text-gray-500">Gallery</a>
           </Link>
         </nav>
         <Link href="/meeting">
