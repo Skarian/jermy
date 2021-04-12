@@ -66,6 +66,11 @@ export async function getStaticProps() {
         twitter
         linkedin
         instagram
+        heroImage {
+          url
+          width
+          height
+        }
       }
       postJermyCollection(limit: 3) {
         items {
@@ -100,6 +105,7 @@ export async function getStaticProps() {
         twitter: response.homePageJermy.twitter,
         linkedin: response.homePageJermy.linkedin,
         instagram: response.homePageJermy.instagram,
+        heroImage: response.homePageJermy.heroImage,
       },
       blogPosts: adjustedResponse,
     },

@@ -2,17 +2,17 @@ import PropTypes from 'prop-types';
 import Image from '../components/image';
 
 const Hero = ({ heroData }) => {
-  const { title, description, experience, twitter, linkedin, instagram } = heroData;
+  const { title, description, experience, twitter, linkedin, instagram, heroImage } = heroData;
   return (
     <div className="flex flex-col md:flex-row md:space-x-12 lg:space-x-16">
       <div className="flex mb-10 md:mb-0 justify-center md:justify-start">
         <Image
           className="rounded-lg"
           alt="a picture of neil wearing a suit"
-          src="/images/profile.jpg"
+          src={heroImage.url}
           wrapper="max-w-sm"
-          width={747}
-          height={747}
+          width={heroImage.width}
+          height={heroImage.height}
           priority
         />
       </div>

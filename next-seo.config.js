@@ -16,10 +16,10 @@ const SEO = {
     images: [
       {
         url:
-          'https://images.ctfassets.net/v9szi7zqf8b3/5Affmh0x47L5IZ07JbjBet/246d4cffcce41557601ff6593a1d23f0/journey-2021.jpg',
+          'https://images.ctfassets.net/v9szi7zqf8b3/5D93xjws1TplniI6AhnDRc/35b5c25afecb4522cafb5ec32a8068cf/Screen_Shot_2020-03-21_at_12.25.46_AM.png',
         alt: title,
-        width: 450,
-        height: 450,
+        width: 1031,
+        height: 660,
       },
     ],
   },
